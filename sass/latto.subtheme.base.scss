@@ -527,7 +527,7 @@ ul, ol {
   input:placeholder, textarea:placeholder {
     color:#ccc;
   }
-  
-  .tags a{
-    padding: $default-spacing / 2;
-    }
+
+  .tags a:after {
+    content: ", ";
+  }
